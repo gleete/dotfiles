@@ -19,3 +19,4 @@ echo "\[\e[31m\]" || echo "\[\e[33m\]"``[[ $(git status 2> /dev/null | tail -n1)
  || echo "\[\e[32m\]"`$(__git_ps1 "(%s)\[\e[00m\]")'\ \
 `#PROMPT LINE`\
 '\[\e[01;34m\]\[\e[00m\]\n└──┤\[\e[0m\]'
+export PATH=${HOME}/homebrew/bin:${PATH}
